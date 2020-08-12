@@ -33,7 +33,7 @@ const handleCommand = (message) => {
         case "!ctf":
             // TODO: make sure the argument is in a proper number
             // TODO: make sure that there is a an argument
-            message.channel.send(`${messageData[1]}F is ${celsiusToFarenheit(messageData[1])}C`);
+            message.channel.send(`${messageData[1]}C is ${celsiusToFarenheit(messageData[1])}F`);
             break;
         default:
             message.channel.send(`Command ${messageData[0]} not found`);
