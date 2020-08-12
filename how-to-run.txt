@@ -1,0 +1,13 @@
+DEBUGGING:
+node --inspect bot.js
+open chrome://inspect with chromium
+click inspect on remote target
+
+
+https://discordjs.guide/creating-your-bot/#listening-for-messages
+
+
+create .env file with
+DISCORD_TOKEN=<bot token>
+You can find the token from
+https://discord.com/developers/applications
